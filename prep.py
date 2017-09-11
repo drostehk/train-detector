@@ -8,9 +8,9 @@ import shutil
 import sys
 
 
-WIDTH=36
-HEIGHT=18
-COUNTRY='us'
+WIDTH=34
+HEIGHT=19
+COUNTRY='hk2'
 
 #WIDTH=52
 #HEIGHT=13
@@ -21,10 +21,10 @@ COUNTRY='us'
 #COUNTRY='br'
 
 #constants
-OPENCV_DIR= '/home/mhill/projects/alpr/libraries/opencv/bin'
+OPENCV_DIR= '/usr/local/bin'
 SAMPLE_CREATOR = OPENCV_DIR + '/opencv_createsamples'
 
-BASE_DIR            = '/home/mhill/projects/alpr/samples/training/'
+BASE_DIR            = '/train-detector/'
 
 OUTPUT_DIR          = BASE_DIR + "out/"
 INPUT_NEGATIVE_DIR  = BASE_DIR + 'raw-neg/'
