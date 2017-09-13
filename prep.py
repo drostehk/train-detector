@@ -8,9 +8,13 @@ import shutil
 import sys
 
 
-WIDTH=34
+WIDTH=35
 HEIGHT=19
 COUNTRY='hk2'
+
+# WIDTH=36
+# HEIGHT=18
+# COUNTRY='us'
 
 #WIDTH=52
 #HEIGHT=13
